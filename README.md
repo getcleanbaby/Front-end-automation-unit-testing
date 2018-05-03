@@ -11,6 +11,7 @@
 
   目前这个练习，使用的默认工具列表分别是：
 
+  ```
   测试管理工具：Karma
 
   测试框架：Mocha
@@ -20,6 +21,7 @@
   测试浏览器：PhantomJs
 
   测试覆盖率统计工具：Karma-Coverage 
+  ```
 
   （先不去着急去熟悉每一个，后面会懂的） 
 
@@ -33,7 +35,7 @@
   yarn add [你所需的包名称] [如果有多个包，就依次继续写] --dev
   ```
 
-  一切安装完后，我们的package.json中的“devDependencies”应该会是如下样子：
+  一切安装完后，我们的`package.json`中的`“devDependencies”`应该会是如下样子：
 
   ```
   "devDependencies": {
