@@ -64,5 +64,54 @@
 
 待测代码我们放在根目录`src`文件夹下，测试代码放在`test`文件夹下
 
-根目录中生成的`karma.conf.js`还不够完善，在其中的
+根目录中生成的`karma.conf.js`还不够完善，在其中的`frameworks`中增加`chai`，
+
+```
+frameworks: ['mocha','chai'],
+```
+
+在 `config.set({})`中添加：
+
+```
+plugins : [
+  'karma-chai',
+  'karma-mocha',
+  'karma-phantomjs-launcher'
+],
+```
+
+## 编写被测试的代码和测试代码
+
+在上面初始化的截图中，我们已经设置了被测试代码和测试代码的位置`src/`和`test/`。
+
+在被测试js文件中写两个函数：
+
+```
+function isNum (num) {
+  return typeof num === 'number'
+}
+function isString (str) {
+  return typeof str === 'string'
+}
+```
+
+在测试代码中输入如下的测试代码：
+
+```
+describe('index.js的测试', function () {
+  it('1应该是数字', function() {
+      // expect(isNum(1)).to.be.true
+      isNum(1).should.equal(true)
+  })
+  it('"1" 应该是字符', function() {
+      // expect(isString('1')).to.be.true
+      isString('1').should.equal(true)
+  })
+})
+```
+
+其中有两个东西我们不认识： `describe`与`it`。他们都是由测试框架`mocha`（流水线上的测试机器）提供的API。
+
+
+
 
