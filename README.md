@@ -8,3 +8,44 @@
   - 2: 测试框架: 提供了单元测试所需的各种API。可以理解为“流水线上的测试机器”。
   - 3: 断言库: 提供了描述你具体测试的API，也就是你的测试逻辑本身。 可以理解为测试机器里面运行的具体测试逻辑。
 
+
+  目前这个练习，使用的默认工具列表分别是：
+
+  测试管理工具：Karma
+
+  测试框架：Mocha
+
+  断言库：Chai
+
+  测试浏览器：PhantomJs
+
+  测试覆盖率统计工具：Karma-Coverage 
+
+  （先不去着急去熟悉每一个，后面会懂的） 
+
+  ## npm基础包配置
+
+  首先，第一步肯定是初始化我们的npm并且安装所需要的包。
+
+  ```
+  yarn init
+
+  yarn add [你所需的包名称] [如果有多个包，就依次继续写] --dev
+  ```
+
+  一切安装完后，我们的package.json中的“devDependencies”应该会是如下样子：
+
+  ```
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "karma": "^2.0.2",
+    "karma-chai": "^0.1.0",
+    "karma-coverage": "^1.1.1",
+    "karma-mocha": "^1.3.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "mocha": "^5.1.1"
+  }
+  ```
+
+  ## 
+
