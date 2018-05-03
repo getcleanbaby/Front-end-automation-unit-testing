@@ -52,4 +52,6 @@
   ```
 
   ## 
+  
+  ![karma init](https://github.com/getcleanbaby/Front-end-automation-unit-testing/raw/master/img/1525335236617.jpg)
 
