@@ -51,7 +51,18 @@
   }
   ```
 
-  ## 
+  ## 测试软件初始化
+
+  前往本项目的根目录，运行`karma init`进行测试软件的初始化。
+  （如果此时提示`command not found: karma`,你需要将karma全局安装一下。`yarn global add karma` ）
+
+  然后会出现连续的一些设置选项，具体设置如图：
   
   ![karma init](https://github.com/getcleanbaby/Front-end-automation-unit-testing/raw/master/img/1525335236617.jpg)
+
+图片里面需要注意的是：我们需要选择我们的 “待测代码” 和 “测试代码”。
+
+待测代码我们放在根目录`src`文件夹下，测试代码放在`test`文件夹下
+
+根目录中生成的`karma.conf.js`还不够完善，在其中的
 
