@@ -117,5 +117,19 @@ describe('index.js的测试', function () {
 
 `it`叫做‘测试用例’。是测试的具体最小单位。和`describe`类似，第一个参数是自身的名字，第二个参数是具体执行函数。
 
+## 运行测试
+
 此时准备工作已经完成，可以开始测试了，命令行输入`karma start`，开始测试。如图：
+
+![karma start result](https://github.com/getcleanbaby/Front-end-automation-unit-testing/raw/master/img/1525402872172.jpg)
+
+从图上可以看到，我们的两个测试用例均得到了通过。
+
+更改我们的测试用例，单元测试会在保存代码后自动运行。
+
+## 统计测试覆盖率
+
+
+
+
 
