@@ -55,6 +55,7 @@
 
   前往本项目的根目录，运行`karma init`进行测试软件的初始化。
   （如果此时提示`command not found: karma`,你需要将karma全局安装一下。`yarn global add karma` ）
+  （`chai`,`mocha`,`karma-chai`都需要全局安装）
 
   然后会出现连续的一些设置选项，具体设置如图：
   
@@ -101,7 +102,7 @@ function isString (str) {
 describe('index.js的测试', function () {
   it('1应该是数字', function() {
       // expect(isNum(1)).to.be.true
-      isNum(1).should.equal(true)
+      isNum('1').should.equal(true)
   })
   it('"1" 应该是字符', function() {
       // expect(isString('1')).to.be.true
@@ -112,6 +113,9 @@ describe('index.js的测试', function () {
 
 其中有两个东西我们不认识： `describe`与`it`。他们都是由测试框架`mocha`（流水线上的测试机器）提供的API。
 
+`describe`被称为‘测试套件’，表示内部的都是一组相关联的测试。第一个参数是测试套件的名字，第二个参数是要具体执行的函数。
 
+`it`叫做‘测试用例’。是测试的具体最小单位。和`describe`类似，第一个参数是自身的名字，第二个参数是具体执行函数。
 
+此时准备工作已经完成，可以开始测试了，命令行输入`karma start`，开始测试。如图：
 
