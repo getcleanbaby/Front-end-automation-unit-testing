@@ -129,7 +129,18 @@ describe('index.js的测试', function () {
 
 ## 统计测试覆盖率
 
+我们使用`karma-coverage`去统计测试覆盖率
 
+修改`karma.conf.js`:
+
+```
+preprocessors: {
+  'src/*.js': ['coverage']
+}
+```
+```
+reporters: ['progress', 'coverage']
+```
 
 
 
