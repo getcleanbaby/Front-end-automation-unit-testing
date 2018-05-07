@@ -1,8 +1,9 @@
 # Front-end-automation-unit-testing
 
+
 ## 所需要的工具
 
-  要想完成一个单元测试，我们至少需要三个方向的工具。假设我们的代码是流水线上的一个个“待检验”的物品。
+  :cloud::rocket:要想完成一个单元测试，我们至少需要三个方向的工具。假设我们的代码是流水线上的一个个“待检验”的物品。
 
   - 1: 测试管理工具: 它能够将测试框架，断言库，测试浏览器，测试代码等组织起来，并且运行测试代码进行测试。我们可以将之理解为: ‘工厂的厂房，承载流水线的房间’。
 
@@ -26,6 +27,7 @@
   ```
 
   （先不去着急去熟悉每一个，后面会懂的） 
+
 
   ## npm基础包配置
 
@@ -51,11 +53,12 @@
   }
   ```
 
+
   ## 测试软件初始化
 
   前往本项目的根目录，运行`karma init`进行测试软件的初始化。
   （如果此时提示`command not found: karma`,你需要将karma全局安装一下。`yarn global add karma` ）
-  （`chai`,`mocha`,`karma-chai`都需要全局安装）
+  （`chai`,`mocha`,`karma-chai`,`karma-coverage`都需要全局安装）
 
   然后会出现连续的一些设置选项，具体设置如图：
   
@@ -80,6 +83,7 @@ plugins : [
   'karma-phantomjs-launcher'
 ],
 ```
+
 
 ## 编写被测试的代码和测试代码
 
@@ -117,6 +121,7 @@ describe('index.js的测试', function () {
 
 `it`叫做‘测试用例’。是测试的具体最小单位。和`describe`类似，第一个参数是自身的名字，第二个参数是具体执行函数。
 
+
 ## 运行测试
 
 此时准备工作已经完成，可以开始测试了，命令行输入`karma start`，开始测试。如图：
@@ -126,6 +131,7 @@ describe('index.js的测试', function () {
 从图上可以看到，我们的两个测试用例均得到了通过。
 
 更改我们的测试用例，单元测试会在保存代码后自动运行。
+
 
 ## 统计测试覆盖率
 
@@ -141,6 +147,13 @@ preprocessors: {
 ```
 reporters: ['progress', 'coverage']
 ```
+
+再次运行`karma start`,我们的项目中就会多出一个coverage文件夹。
+浏览器打开它内部PhantomJS文件夹下面的index.html，
+就可以看到测试覆盖率了，如图：
+
+![karma-coverage](https://github.com/getcleanbaby/Front-end-automation-unit-testing/raw/master/img/1525418258321.jpg)
+
 
 
 
