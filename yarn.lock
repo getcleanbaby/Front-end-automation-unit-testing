@@ -2,6 +2,117 @@
 # yarn lockfile v1
 
 
+"@webassemblyjs/ast@1.3.1":
+  version "1.3.1"
+  resolved "http://r.cnpmjs.org/@webassemblyjs/ast/download/@webassemblyjs/ast-1.3.1.tgz#3081b4b3ff0af733aa5ba573af998f33711293f8"
+  dependencies:
+    "@webassemblyjs/helper-wasm-bytecode" "1.3.1"
+    "@webassemblyjs/wast-parser" "1.3.1"
+    webassemblyjs "1.3.1"
+
+"@webassemblyjs/floating-point-hex-parser@1.3.1":
+  version "1.3.1"
+  resolved "http://r.cnpmjs.org/@webassemblyjs/floating-point-hex-parser/download/@webassemblyjs/floating-point-hex-parser-1.3.1.tgz#82646903ba25c3e5d88dec41ecb4e4d770615bfc"
+
+"@webassemblyjs/helper-buffer@1.3.1":
+  version "1.3.1"
+  resolved "http://r.cnpmjs.org/@webassemblyjs/helper-buffer/download/@webassemblyjs/helper-buffer-1.3.1.tgz#aa66bb6c274a7e5610d7468f94a2702186713bc6"
+
+"@webassemblyjs/helper-code-frame@1.3.1":
+  version "1.3.1"
+  resolved "http://r.cnpmjs.org/@webassemblyjs/helper-code-frame/download/@webassemblyjs/helper-code-frame-1.3.1.tgz#b5eba87cf37992e8a62c402545aed87dfd02be83"
+  dependencies:
+    "@webassemblyjs/wast-printer" "1.3.1"
+
+"@webassemblyjs/helper-fsm@1.3.1":
+  version "1.3.1"
+  resolved "http://r.cnpmjs.org/@webassemblyjs/helper-fsm/download/@webassemblyjs/helper-fsm-1.3.1.tgz#297113d09a9541613eaeb265d7f948c5e03eb0a2"
+
+"@webassemblyjs/helper-wasm-bytecode@1.3.1":
+  version "1.3.1"
+  resolved "http://r.cnpmjs.org/@webassemblyjs/helper-wasm-bytecode/download/@webassemblyjs/helper-wasm-bytecode-1.3.1.tgz#53b0308988e3a0cad836c83fc0801255906608f8"
+
+"@webassemblyjs/helper-wasm-section@1.3.1":
+  version "1.3.1"
+  resolved "http://r.cnpmjs.org/@webassemblyjs/helper-wasm-section/download/@webassemblyjs/helper-wasm-section-1.3.1.tgz#3df13898e89a376ffb89439d216d9f0001bf9632"
+  dependencies:
+    "@webassemblyjs/ast" "1.3.1"
+    "@webassemblyjs/helper-buffer" "1.3.1"
+    "@webassemblyjs/helper-wasm-bytecode" "1.3.1"
+    "@webassemblyjs/wasm-gen" "1.3.1"
+
+"@webassemblyjs/leb128@1.3.1":
+  version "1.3.1"
+  resolved "http://r.cnpmjs.org/@webassemblyjs/leb128/download/@webassemblyjs/leb128-1.3.1.tgz#e0cf1c585c72955637eeeabab1e2ab37c12c2338"
+  dependencies:
+    leb "^0.3.0"
+
+"@webassemblyjs/validation@1.3.1":
+  version "1.3.1"
+  resolved "http://r.cnpmjs.org/@webassemblyjs/validation/download/@webassemblyjs/validation-1.3.1.tgz#ed0129d7ccca7858a3f46e7e47a6889008547a39"
+  dependencies:
+    "@webassemblyjs/ast" "1.3.1"
+
+"@webassemblyjs/wasm-edit@1.3.1":
+  version "1.3.1"
+  resolved "http://r.cnpmjs.org/@webassemblyjs/wasm-edit/download/@webassemblyjs/wasm-edit-1.3.1.tgz#a16ca4d9a12144b1b28d4e66ad1ad66ec65e479e"
+  dependencies:
+    "@webassemblyjs/ast" "1.3.1"
+    "@webassemblyjs/helper-buffer" "1.3.1"
+    "@webassemblyjs/helper-wasm-bytecode" "1.3.1"
+    "@webassemblyjs/helper-wasm-section" "1.3.1"
+    "@webassemblyjs/wasm-gen" "1.3.1"
+    "@webassemblyjs/wasm-opt" "1.3.1"
+    "@webassemblyjs/wasm-parser" "1.3.1"
+    "@webassemblyjs/wast-printer" "1.3.1"
+    debug "^3.1.0"
+
+"@webassemblyjs/wasm-gen@1.3.1":
+  version "1.3.1"
+  resolved "http://r.cnpmjs.org/@webassemblyjs/wasm-gen/download/@webassemblyjs/wasm-gen-1.3.1.tgz#43263fc56a0570e0564e407bbcd4c02e85167398"
+  dependencies:
+    "@webassemblyjs/ast" "1.3.1"
+    "@webassemblyjs/helper-wasm-bytecode" "1.3.1"
+    "@webassemblyjs/leb128" "1.3.1"
+
+"@webassemblyjs/wasm-opt@1.3.1":
+  version "1.3.1"
+  resolved "http://r.cnpmjs.org/@webassemblyjs/wasm-opt/download/@webassemblyjs/wasm-opt-1.3.1.tgz#172601dcdaaacd6b0b002df1252033198c65eceb"
+  dependencies:
+    "@webassemblyjs/ast" "1.3.1"
+    "@webassemblyjs/helper-buffer" "1.3.1"
+    "@webassemblyjs/wasm-gen" "1.3.1"
+    "@webassemblyjs/wasm-parser" "1.3.1"
+
+"@webassemblyjs/wasm-parser@1.3.1":
+  version "1.3.1"
+  resolved "http://r.cnpmjs.org/@webassemblyjs/wasm-parser/download/@webassemblyjs/wasm-parser-1.3.1.tgz#76727be6c313a9b775170ed38a126558eed7e8ef"
+  dependencies:
+    "@webassemblyjs/ast" "1.3.1"
+    "@webassemblyjs/helper-wasm-bytecode" "1.3.1"
+    "@webassemblyjs/leb128" "1.3.1"
+    "@webassemblyjs/wasm-parser" "1.3.1"
+    webassemblyjs "1.3.1"
+
+"@webassemblyjs/wast-parser@1.3.1":
+  version "1.3.1"
+  resolved "http://r.cnpmjs.org/@webassemblyjs/wast-parser/download/@webassemblyjs/wast-parser-1.3.1.tgz#62b6eba09580477868dd394cee3e3f5c64e1f3f8"
+  dependencies:
+    "@webassemblyjs/ast" "1.3.1"
+    "@webassemblyjs/floating-point-hex-parser" "1.3.1"
+    "@webassemblyjs/helper-code-frame" "1.3.1"
+    "@webassemblyjs/helper-fsm" "1.3.1"
+    long "^3.2.0"
+    webassemblyjs "1.3.1"
+
+"@webassemblyjs/wast-printer@1.3.1":
+  version "1.3.1"
+  resolved "http://r.cnpmjs.org/@webassemblyjs/wast-printer/download/@webassemblyjs/wast-printer-1.3.1.tgz#3e75b889e6f1ba2dfa854e4436b4287e7687e82c"
+  dependencies:
+    "@webassemblyjs/ast" "1.3.1"
+    "@webassemblyjs/wast-parser" "1.3.1"
+    long "^3.2.0"
+
 abbrev@1:
   version "1.1.1"
   resolved "http://r.cnpmjs.org/abbrev/download/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -93,12 +204,6 @@ ansi-regex@^2.0.0:
 ansi-styles@^2.2.1:
   version "2.2.1"
   resolved "http://r.cnpmjs.org/ansi-styles/download/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
-
-ansi-styles@^3.2.1:
-  version "3.2.1"
-  resolved "http://r.cnpmjs.org/ansi-styles/download/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
-  dependencies:
-    color-convert "^1.9.0"
 
 anymatch@^1.3.0:
   version "1.3.2"
@@ -218,12 +323,6 @@ async-limiter@~1.0.0:
 async@1.x, async@^1.4.0:
   version "1.5.2"
   resolved "http://r.cnpmjs.org/async/download/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
-
-async@^2.0.0:
-  version "2.6.0"
-  resolved "http://r.cnpmjs.org/async/download/async-2.6.0.tgz#61a29abb6fcc026fea77e56d1c6ec53a795951f4"
-  dependencies:
-    lodash "^4.14.0"
 
 async@~2.1.2:
   version "2.1.5"
@@ -455,7 +554,7 @@ babel-plugin-transform-es2015-block-scoped-functions@^6.22.0:
   dependencies:
     babel-runtime "^6.22.0"
 
-babel-plugin-transform-es2015-block-scoping@^6.23.0:
+babel-plugin-transform-es2015-block-scoping@^6.23.0, babel-plugin-transform-es2015-block-scoping@^6.24.1:
   version "6.26.0"
   resolved "http://r.cnpmjs.org/babel-plugin-transform-es2015-block-scoping/download/babel-plugin-transform-es2015-block-scoping-6.26.0.tgz#d70f5299c1308d05c12f463813b0a09e73b1895f"
   dependencies:
@@ -465,7 +564,7 @@ babel-plugin-transform-es2015-block-scoping@^6.23.0:
     babel-types "^6.26.0"
     lodash "^4.17.4"
 
-babel-plugin-transform-es2015-classes@^6.23.0:
+babel-plugin-transform-es2015-classes@^6.23.0, babel-plugin-transform-es2015-classes@^6.24.1:
   version "6.24.1"
   resolved "http://r.cnpmjs.org/babel-plugin-transform-es2015-classes/download/babel-plugin-transform-es2015-classes-6.24.1.tgz#5a4c58a50c9c9461e564b4b2a3bfabc97a2584db"
   dependencies:
@@ -479,33 +578,33 @@ babel-plugin-transform-es2015-classes@^6.23.0:
     babel-traverse "^6.24.1"
     babel-types "^6.24.1"
 
-babel-plugin-transform-es2015-computed-properties@^6.22.0:
+babel-plugin-transform-es2015-computed-properties@^6.22.0, babel-plugin-transform-es2015-computed-properties@^6.24.1:
   version "6.24.1"
   resolved "http://r.cnpmjs.org/babel-plugin-transform-es2015-computed-properties/download/babel-plugin-transform-es2015-computed-properties-6.24.1.tgz#6fe2a8d16895d5634f4cd999b6d3480a308159b3"
   dependencies:
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
-babel-plugin-transform-es2015-destructuring@^6.23.0:
+babel-plugin-transform-es2015-destructuring@^6.22.0, babel-plugin-transform-es2015-destructuring@^6.23.0:
   version "6.23.0"
   resolved "http://r.cnpmjs.org/babel-plugin-transform-es2015-destructuring/download/babel-plugin-transform-es2015-destructuring-6.23.0.tgz#997bb1f1ab967f682d2b0876fe358d60e765c56d"
   dependencies:
     babel-runtime "^6.22.0"
 
-babel-plugin-transform-es2015-duplicate-keys@^6.22.0:
+babel-plugin-transform-es2015-duplicate-keys@^6.22.0, babel-plugin-transform-es2015-duplicate-keys@^6.24.1:
   version "6.24.1"
   resolved "http://r.cnpmjs.org/babel-plugin-transform-es2015-duplicate-keys/download/babel-plugin-transform-es2015-duplicate-keys-6.24.1.tgz#73eb3d310ca969e3ef9ec91c53741a6f1576423e"
   dependencies:
     babel-runtime "^6.22.0"
     babel-types "^6.24.1"
 
-babel-plugin-transform-es2015-for-of@^6.23.0:
+babel-plugin-transform-es2015-for-of@^6.22.0, babel-plugin-transform-es2015-for-of@^6.23.0:
   version "6.23.0"
   resolved "http://r.cnpmjs.org/babel-plugin-transform-es2015-for-of/download/babel-plugin-transform-es2015-for-of-6.23.0.tgz#f47c95b2b613df1d3ecc2fdb7573623c75248691"
   dependencies:
     babel-runtime "^6.22.0"
 
-babel-plugin-transform-es2015-function-name@^6.22.0:
+babel-plugin-transform-es2015-function-name@^6.22.0, babel-plugin-transform-es2015-function-name@^6.24.1:
   version "6.24.1"
   resolved "http://r.cnpmjs.org/babel-plugin-transform-es2015-function-name/download/babel-plugin-transform-es2015-function-name-6.24.1.tgz#834c89853bc36b1af0f3a4c5dbaa94fd8eacaa8b"
   dependencies:
@@ -536,7 +635,7 @@ babel-plugin-transform-es2015-modules-commonjs@^6.23.0, babel-plugin-transform-e
     babel-template "^6.26.0"
     babel-types "^6.26.0"
 
-babel-plugin-transform-es2015-modules-systemjs@^6.23.0:
+babel-plugin-transform-es2015-modules-systemjs@^6.23.0, babel-plugin-transform-es2015-modules-systemjs@^6.24.1:
   version "6.24.1"
   resolved "http://r.cnpmjs.org/babel-plugin-transform-es2015-modules-systemjs/download/babel-plugin-transform-es2015-modules-systemjs-6.24.1.tgz#ff89a142b9119a906195f5f106ecf305d9407d23"
   dependencies:
@@ -544,7 +643,7 @@ babel-plugin-transform-es2015-modules-systemjs@^6.23.0:
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
-babel-plugin-transform-es2015-modules-umd@^6.23.0:
+babel-plugin-transform-es2015-modules-umd@^6.23.0, babel-plugin-transform-es2015-modules-umd@^6.24.1:
   version "6.24.1"
   resolved "http://r.cnpmjs.org/babel-plugin-transform-es2015-modules-umd/download/babel-plugin-transform-es2015-modules-umd-6.24.1.tgz#ac997e6285cd18ed6176adb607d602344ad38468"
   dependencies:
@@ -552,14 +651,14 @@ babel-plugin-transform-es2015-modules-umd@^6.23.0:
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
-babel-plugin-transform-es2015-object-super@^6.22.0:
+babel-plugin-transform-es2015-object-super@^6.22.0, babel-plugin-transform-es2015-object-super@^6.24.1:
   version "6.24.1"
   resolved "http://r.cnpmjs.org/babel-plugin-transform-es2015-object-super/download/babel-plugin-transform-es2015-object-super-6.24.1.tgz#24cef69ae21cb83a7f8603dad021f572eb278f8d"
   dependencies:
     babel-helper-replace-supers "^6.24.1"
     babel-runtime "^6.22.0"
 
-babel-plugin-transform-es2015-parameters@^6.23.0:
+babel-plugin-transform-es2015-parameters@^6.23.0, babel-plugin-transform-es2015-parameters@^6.24.1:
   version "6.24.1"
   resolved "http://r.cnpmjs.org/babel-plugin-transform-es2015-parameters/download/babel-plugin-transform-es2015-parameters-6.24.1.tgz#57ac351ab49caf14a97cd13b09f66fdf0a625f2b"
   dependencies:
@@ -570,7 +669,7 @@ babel-plugin-transform-es2015-parameters@^6.23.0:
     babel-traverse "^6.24.1"
     babel-types "^6.24.1"
 
-babel-plugin-transform-es2015-shorthand-properties@^6.22.0:
+babel-plugin-transform-es2015-shorthand-properties@^6.22.0, babel-plugin-transform-es2015-shorthand-properties@^6.24.1:
   version "6.24.1"
   resolved "http://r.cnpmjs.org/babel-plugin-transform-es2015-shorthand-properties/download/babel-plugin-transform-es2015-shorthand-properties-6.24.1.tgz#24f875d6721c87661bbd99a4622e51f14de38aa0"
   dependencies:
@@ -583,7 +682,7 @@ babel-plugin-transform-es2015-spread@^6.22.0:
   dependencies:
     babel-runtime "^6.22.0"
 
-babel-plugin-transform-es2015-sticky-regex@^6.22.0:
+babel-plugin-transform-es2015-sticky-regex@^6.22.0, babel-plugin-transform-es2015-sticky-regex@^6.24.1:
   version "6.24.1"
   resolved "http://r.cnpmjs.org/babel-plugin-transform-es2015-sticky-regex/download/babel-plugin-transform-es2015-sticky-regex-6.24.1.tgz#00c1cdb1aca71112cdf0cf6126c2ed6b457ccdbc"
   dependencies:
@@ -597,13 +696,13 @@ babel-plugin-transform-es2015-template-literals@^6.22.0:
   dependencies:
     babel-runtime "^6.22.0"
 
-babel-plugin-transform-es2015-typeof-symbol@^6.23.0:
+babel-plugin-transform-es2015-typeof-symbol@^6.22.0, babel-plugin-transform-es2015-typeof-symbol@^6.23.0:
   version "6.23.0"
   resolved "http://r.cnpmjs.org/babel-plugin-transform-es2015-typeof-symbol/download/babel-plugin-transform-es2015-typeof-symbol-6.23.0.tgz#dec09f1cddff94b52ac73d505c84df59dcceb372"
   dependencies:
     babel-runtime "^6.22.0"
 
-babel-plugin-transform-es2015-unicode-regex@^6.22.0:
+babel-plugin-transform-es2015-unicode-regex@^6.22.0, babel-plugin-transform-es2015-unicode-regex@^6.24.1:
   version "6.24.1"
   resolved "http://r.cnpmjs.org/babel-plugin-transform-es2015-unicode-regex/download/babel-plugin-transform-es2015-unicode-regex-6.24.1.tgz#d38b12f42ea7323f729387f18a7c5ae1faeb35e9"
   dependencies:
@@ -619,7 +718,7 @@ babel-plugin-transform-exponentiation-operator@^6.22.0:
     babel-plugin-syntax-exponentiation-operator "^6.8.0"
     babel-runtime "^6.22.0"
 
-babel-plugin-transform-regenerator@^6.22.0:
+babel-plugin-transform-regenerator@^6.22.0, babel-plugin-transform-regenerator@^6.24.1:
   version "6.26.0"
   resolved "http://r.cnpmjs.org/babel-plugin-transform-regenerator/download/babel-plugin-transform-regenerator-6.26.0.tgz#e0703696fbde27f0a3efcacf8b4dca2f7b3a8f2f"
   dependencies:
@@ -667,6 +766,35 @@ babel-preset-env@^1.6.1:
     invariant "^2.2.2"
     semver "^5.3.0"
 
+babel-preset-es2015@^6.24.1:
+  version "6.24.1"
+  resolved "http://r.cnpmjs.org/babel-preset-es2015/download/babel-preset-es2015-6.24.1.tgz#d44050d6bc2c9feea702aaf38d727a0210538939"
+  dependencies:
+    babel-plugin-check-es2015-constants "^6.22.0"
+    babel-plugin-transform-es2015-arrow-functions "^6.22.0"
+    babel-plugin-transform-es2015-block-scoped-functions "^6.22.0"
+    babel-plugin-transform-es2015-block-scoping "^6.24.1"
+    babel-plugin-transform-es2015-classes "^6.24.1"
+    babel-plugin-transform-es2015-computed-properties "^6.24.1"
+    babel-plugin-transform-es2015-destructuring "^6.22.0"
+    babel-plugin-transform-es2015-duplicate-keys "^6.24.1"
+    babel-plugin-transform-es2015-for-of "^6.22.0"
+    babel-plugin-transform-es2015-function-name "^6.24.1"
+    babel-plugin-transform-es2015-literals "^6.22.0"
+    babel-plugin-transform-es2015-modules-amd "^6.24.1"
+    babel-plugin-transform-es2015-modules-commonjs "^6.24.1"
+    babel-plugin-transform-es2015-modules-systemjs "^6.24.1"
+    babel-plugin-transform-es2015-modules-umd "^6.24.1"
+    babel-plugin-transform-es2015-object-super "^6.24.1"
+    babel-plugin-transform-es2015-parameters "^6.24.1"
+    babel-plugin-transform-es2015-shorthand-properties "^6.24.1"
+    babel-plugin-transform-es2015-spread "^6.22.0"
+    babel-plugin-transform-es2015-sticky-regex "^6.24.1"
+    babel-plugin-transform-es2015-template-literals "^6.22.0"
+    babel-plugin-transform-es2015-typeof-symbol "^6.22.0"
+    babel-plugin-transform-es2015-unicode-regex "^6.24.1"
+    babel-plugin-transform-regenerator "^6.24.1"
+
 babel-register@^6.26.0:
   version "6.26.0"
   resolved "http://r.cnpmjs.org/babel-register/download/babel-register-6.26.0.tgz#6ed021173e2fcb486d7acb45c6009a856f647071"
@@ -679,7 +807,7 @@ babel-register@^6.26.0:
     mkdirp "^0.5.1"
     source-map-support "^0.4.15"
 
-babel-runtime@^6.0.0, babel-runtime@^6.18.0, babel-runtime@^6.22.0, babel-runtime@^6.26.0:
+babel-runtime@^6.18.0, babel-runtime@^6.22.0, babel-runtime@^6.26.0:
   version "6.26.0"
   resolved "http://r.cnpmjs.org/babel-runtime/download/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   dependencies:
@@ -1070,14 +1198,6 @@ chalk@^1.1.1, chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^2.0.1, chalk@^2.1.0:
-  version "2.4.1"
-  resolved "http://r.cnpmjs.org/chalk/download/chalk-2.4.1.tgz#18c49ab16a037b6eb0152cc83e3471338215b66e"
-  dependencies:
-    ansi-styles "^3.2.1"
-    escape-string-regexp "^1.0.5"
-    supports-color "^5.3.0"
-
 check-error@^1.0.1:
   version "1.0.2"
   resolved "http://r.cnpmjs.org/check-error/download/check-error-1.0.2.tgz#574d312edd88bb5dd8912e9286dd6c0aed4aac82"
@@ -1169,16 +1289,6 @@ collection-visit@^1.0.0:
   dependencies:
     map-visit "^1.0.0"
     object-visit "^1.0.0"
-
-color-convert@^1.9.0:
-  version "1.9.1"
-  resolved "http://r.cnpmjs.org/color-convert/download/color-convert-1.9.1.tgz#c1261107aeb2f294ebffec9ed9ecad529a6097ed"
-  dependencies:
-    color-name "^1.1.1"
-
-color-name@^1.1.1:
-  version "1.1.3"
-  resolved "http://r.cnpmjs.org/color-name/download/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
 
 colors@^1.1.0:
   version "1.2.3"
@@ -1373,12 +1483,6 @@ cyclist@~0.2.2:
   version "0.2.2"
   resolved "http://r.cnpmjs.org/cyclist/download/cyclist-0.2.2.tgz#1b33792e11e914a2fd6d6ed6447464444e5fa640"
 
-d@1:
-  version "1.0.0"
-  resolved "http://r.cnpmjs.org/d/download/d-1.0.0.tgz#754bb5bfe55451da69a58b94d45f4c5b0462d58f"
-  dependencies:
-    es5-ext "^0.10.9"
-
 dashdash@^1.12.0:
   version "1.14.1"
   resolved "http://r.cnpmjs.org/dashdash/download/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
@@ -1443,13 +1547,6 @@ deep-extend@^0.5.1:
 deep-is@~0.1.3:
   version "0.1.3"
   resolved "http://r.cnpmjs.org/deep-is/download/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
-
-define-properties@^1.1.2:
-  version "1.1.2"
-  resolved "http://r.cnpmjs.org/define-properties/download/define-properties-1.1.2.tgz#83a73f2fea569898fb737193c8f873caf6d45c94"
-  dependencies:
-    foreach "^2.0.5"
-    object-keys "^1.0.8"
 
 define-property@^0.2.5:
   version "0.2.5"
@@ -1660,38 +1757,15 @@ error-ex@^1.2.0:
   dependencies:
     is-arrayish "^0.2.1"
 
-es5-ext@^0.10.35, es5-ext@^0.10.9, es5-ext@~0.10.14:
-  version "0.10.42"
-  resolved "http://r.cnpmjs.org/es5-ext/download/es5-ext-0.10.42.tgz#8c07dd33af04d5dcd1310b5cef13bea63a89ba8d"
-  dependencies:
-    es6-iterator "~2.0.3"
-    es6-symbol "~3.1.1"
-    next-tick "1"
-
-es6-iterator@~2.0.3:
-  version "2.0.3"
-  resolved "http://r.cnpmjs.org/es6-iterator/download/es6-iterator-2.0.3.tgz#a7de889141a05a94b0854403b2d0a0fbfa98f3b7"
-  dependencies:
-    d "1"
-    es5-ext "^0.10.35"
-    es6-symbol "^3.1.1"
-
 es6-promise@^4.0.3:
   version "4.2.4"
   resolved "http://r.cnpmjs.org/es6-promise/download/es6-promise-4.2.4.tgz#dc4221c2b16518760bd8c39a52d8f356fc00ed29"
-
-es6-symbol@^3.1.1, es6-symbol@~3.1.1:
-  version "3.1.1"
-  resolved "http://r.cnpmjs.org/es6-symbol/download/es6-symbol-3.1.1.tgz#bf00ef4fdab6ba1b46ecb7b629b4c7ed5715cc77"
-  dependencies:
-    d "1"
-    es5-ext "~0.10.14"
 
 escape-html@~1.0.3:
   version "1.0.3"
   resolved "http://r.cnpmjs.org/escape-html/download/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
 
-escape-string-regexp@1.0.5, escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
+escape-string-regexp@1.0.5, escape-string-regexp@^1.0.2:
   version "1.0.5"
   resolved "http://r.cnpmjs.org/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
@@ -1968,10 +2042,6 @@ for-own@^0.1.4:
   dependencies:
     for-in "^1.0.1"
 
-foreach@^2.0.5:
-  version "2.0.5"
-  resolved "http://r.cnpmjs.org/foreach/download/foreach-2.0.5.tgz#0bee005018aeb260d0a3af3ae658dd0136ec1b99"
-
 forever-agent@~0.6.1:
   version "0.6.1"
   resolved "http://r.cnpmjs.org/forever-agent/download/forever-agent-0.6.1.tgz#fbc71f0c41adeb37f96c577ad1ed42d8fdacca91"
@@ -2053,10 +2123,6 @@ ftp@~0.3.10:
   dependencies:
     readable-stream "1.1.x"
     xregexp "2.0.0"
-
-function-bind@^1.1.1:
-  version "1.1.1"
-  resolved "http://r.cnpmjs.org/function-bind/download/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
 
 gauge@~2.7.3:
   version "2.7.4"
@@ -2223,14 +2289,6 @@ has-flag@^1.0.0:
 has-flag@^2.0.0:
   version "2.0.0"
   resolved "http://r.cnpmjs.org/has-flag/download/has-flag-2.0.0.tgz#e8207af1cc7b30d446cc70b734b5e8be18f88d51"
-
-has-flag@^3.0.0:
-  version "3.0.0"
-  resolved "http://r.cnpmjs.org/has-flag/download/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
-
-has-symbols@^1.0.0:
-  version "1.0.0"
-  resolved "http://r.cnpmjs.org/has-symbols/download/has-symbols-1.0.0.tgz#ba1a8f1af2a0fc39650f5c850367704122063b44"
 
 has-unicode@^2.0.0:
   version "2.0.1"
@@ -2826,17 +2884,6 @@ karma-phantomjs-launcher@^1.0.4:
     lodash "^4.0.1"
     phantomjs-prebuilt "^2.1.7"
 
-karma-webpack@^3.0.0:
-  version "3.0.0"
-  resolved "http://r.cnpmjs.org/karma-webpack/download/karma-webpack-3.0.0.tgz#bf009c5b73c667c11c015717e9e520f581317c44"
-  dependencies:
-    async "^2.0.0"
-    babel-runtime "^6.0.0"
-    loader-utils "^1.0.0"
-    lodash "^4.0.0"
-    source-map "^0.5.6"
-    webpack-dev-middleware "^2.0.6"
-
 karma@^2.0.2:
   version "2.0.2"
   resolved "http://r.cnpmjs.org/karma/download/karma-2.0.2.tgz#4d2db9402850a66551fa784b0164fb0824ed8c4b"
@@ -2903,6 +2950,10 @@ lazy-cache@^1.0.3:
   version "1.0.4"
   resolved "http://r.cnpmjs.org/lazy-cache/download/lazy-cache-1.0.4.tgz#a1d78fc3a50474cb80845d3b3b6e1da49a446e8e"
 
+leb@^0.3.0:
+  version "0.3.0"
+  resolved "http://r.cnpmjs.org/leb/download/leb-0.3.0.tgz#32bee9fad168328d6aea8522d833f4180eed1da3"
+
 levn@~0.3.0:
   version "0.3.0"
   resolved "http://r.cnpmjs.org/levn/download/levn-0.3.0.tgz#3b09924edf9f083c0490fdd4c0bc4421e04764ee"
@@ -2940,7 +2991,7 @@ loader-runner@^2.3.0:
   version "2.3.0"
   resolved "http://r.cnpmjs.org/loader-runner/download/loader-runner-2.3.0.tgz#f482aea82d543e07921700d5a46ef26fdac6b8a2"
 
-loader-utils@^1.0.0, loader-utils@^1.0.2, loader-utils@^1.1.0:
+loader-utils@^1.0.2, loader-utils@^1.1.0:
   version "1.1.0"
   resolved "http://r.cnpmjs.org/loader-utils/download/loader-utils-1.1.0.tgz#c98aef488bcceda2ffb5e2de646d6a754429f5cd"
   dependencies:
@@ -2962,12 +3013,6 @@ lodash@^3.8.0:
 lodash@^4.0.0, lodash@^4.0.1, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.17.4, lodash@^4.5.0:
   version "4.17.10"
   resolved "http://r.cnpmjs.org/lodash/download/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
-
-log-symbols@^2.1.0:
-  version "2.2.0"
-  resolved "http://r.cnpmjs.org/log-symbols/download/log-symbols-2.2.0.tgz#5740e1c5d6f0dfda4ad9323b5332107ef6b4c40a"
-  dependencies:
-    chalk "^2.0.1"
 
 log4js@^2.3.9:
   version "2.5.3"
@@ -2996,12 +3041,9 @@ loggly@^1.1.0:
     request "2.75.x"
     timespan "2.3.x"
 
-loglevelnext@^1.0.1:
-  version "1.0.5"
-  resolved "http://r.cnpmjs.org/loglevelnext/download/loglevelnext-1.0.5.tgz#36fc4f5996d6640f539ff203ba819641680d75a2"
-  dependencies:
-    es6-symbol "^3.1.1"
-    object.assign "^4.1.0"
+long@^3.2.0:
+  version "3.2.0"
+  resolved "http://r.cnpmjs.org/long/download/long-3.2.0.tgz#d821b7138ca1cb581c172990ef14db200b5c474b"
 
 longest@^1.0.1:
   version "1.0.1"
@@ -3013,7 +3055,7 @@ loose-envify@^1.0.0:
   dependencies:
     js-tokens "^3.0.0"
 
-loud-rejection@^1.0.0, loud-rejection@^1.6.0:
+loud-rejection@^1.0.0:
   version "1.6.0"
   resolved "http://r.cnpmjs.org/loud-rejection/download/loud-rejection-1.6.0.tgz#5b46f80147edee578870f086d04821cf998e551f"
   dependencies:
@@ -3165,10 +3207,6 @@ mime-types@^2.1.11, mime-types@^2.1.12, mime-types@~2.1.17, mime-types@~2.1.18, 
 mime@^1.3.4:
   version "1.6.0"
   resolved "http://r.cnpmjs.org/mime/download/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
-
-mime@^2.1.0:
-  version "2.3.1"
-  resolved "http://r.cnpmjs.org/mime/download/mime-2.3.1.tgz#b1621c54d63b97c47d3cfe7f7215f7d64517c369"
 
 min-document@^2.19.0:
   version "2.19.0"
@@ -3324,10 +3362,6 @@ neo-async@^2.5.0:
 netmask@~1.0.4:
   version "1.0.6"
   resolved "http://r.cnpmjs.org/netmask/download/netmask-1.0.6.tgz#20297e89d86f6f6400f250d9f4f6b4c1945fcd35"
-
-next-tick@1:
-  version "1.0.0"
-  resolved "http://r.cnpmjs.org/next-tick/download/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
 
 node-libs-browser@^2.0.0:
   version "2.1.0"
@@ -3497,24 +3531,11 @@ object-copy@^0.1.0:
     define-property "^0.2.5"
     kind-of "^3.0.3"
 
-object-keys@^1.0.11, object-keys@^1.0.8:
-  version "1.0.11"
-  resolved "http://r.cnpmjs.org/object-keys/download/object-keys-1.0.11.tgz#c54601778ad560f1142ce0e01bcca8b56d13426d"
-
 object-visit@^1.0.0:
   version "1.0.1"
   resolved "http://r.cnpmjs.org/object-visit/download/object-visit-1.0.1.tgz#f79c4493af0c5377b59fe39d395e41042dd045bb"
   dependencies:
     isobject "^3.0.0"
-
-object.assign@^4.1.0:
-  version "4.1.0"
-  resolved "http://r.cnpmjs.org/object.assign/download/object.assign-4.1.0.tgz#968bf1100d7956bb3ca086f006f846b3bc4008da"
-  dependencies:
-    define-properties "^1.1.2"
-    function-bind "^1.1.1"
-    has-symbols "^1.0.0"
-    object-keys "^1.0.11"
 
 object.omit@^2.0.0:
   version "2.0.1"
@@ -3913,7 +3934,7 @@ randomfill@^1.0.3:
     randombytes "^2.0.5"
     safe-buffer "^5.1.0"
 
-range-parser@^1.0.3, range-parser@^1.2.0:
+range-parser@^1.2.0:
   version "1.2.0"
   resolved "http://r.cnpmjs.org/range-parser/download/range-parser-1.2.0.tgz#f49be6b487894ddc40dcc94a322f611092e00d5e"
 
@@ -4609,12 +4630,6 @@ supports-color@^3.1.0:
   dependencies:
     has-flag "^1.0.0"
 
-supports-color@^5.3.0:
-  version "5.4.0"
-  resolved "http://r.cnpmjs.org/supports-color/download/supports-color-5.4.0.tgz#1c6b337402c2137605efe19f10fec390f6faab54"
-  dependencies:
-    has-flag "^3.0.0"
-
 tapable@^1.0.0:
   version "1.0.0"
   resolved "http://r.cnpmjs.org/tapable/download/tapable-1.0.0.tgz#cbb639d9002eed9c6b5975eb20598d7936f1f9f2"
@@ -4840,10 +4855,6 @@ urix@^0.1.0:
   version "0.1.0"
   resolved "http://r.cnpmjs.org/urix/download/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
 
-url-join@^2.0.2:
-  version "2.0.5"
-  resolved "http://r.cnpmjs.org/url-join/download/url-join-2.0.5.tgz#5af22f18c052a000a48d7b82c5e9c2e2feeda728"
-
 url@^0.11.0:
   version "0.11.0"
   resolved "http://r.cnpmjs.org/url/download/url-0.11.0.tgz#3838e97cfc60521eb73c525a8e55bfdd9e2e28f1"
@@ -4919,26 +4930,15 @@ watchpack@^1.5.0:
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
 
-webpack-dev-middleware@^2.0.6:
-  version "2.0.6"
-  resolved "http://r.cnpmjs.org/webpack-dev-middleware/download/webpack-dev-middleware-2.0.6.tgz#a51692801e8310844ef3e3790e1eacfe52326fd4"
+webassemblyjs@1.3.1:
+  version "1.3.1"
+  resolved "http://r.cnpmjs.org/webassemblyjs/download/webassemblyjs-1.3.1.tgz#2bb8ebc724d0fe09b9562ab20e32ce3f5bac5c74"
   dependencies:
-    loud-rejection "^1.6.0"
-    memory-fs "~0.4.1"
-    mime "^2.1.0"
-    path-is-absolute "^1.0.0"
-    range-parser "^1.0.3"
-    url-join "^2.0.2"
-    webpack-log "^1.0.1"
-
-webpack-log@^1.0.1:
-  version "1.2.0"
-  resolved "http://r.cnpmjs.org/webpack-log/download/webpack-log-1.2.0.tgz#a4b34cda6b22b518dbb0ab32e567962d5c72a43d"
-  dependencies:
-    chalk "^2.1.0"
-    log-symbols "^2.1.0"
-    loglevelnext "^1.0.1"
-    uuid "^3.1.0"
+    "@webassemblyjs/ast" "1.3.1"
+    "@webassemblyjs/validation" "1.3.1"
+    "@webassemblyjs/wasm-parser" "1.3.1"
+    "@webassemblyjs/wast-parser" "1.3.1"
+    long "^3.2.0"
 
 webpack-sources@^1.0.1, webpack-sources@^1.1.0:
   version "1.1.0"
@@ -4947,10 +4947,13 @@ webpack-sources@^1.0.1, webpack-sources@^1.1.0:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
 
-webpack@^4.7.0:
-  version "4.7.0"
-  resolved "http://r.cnpmjs.org/webpack/download/webpack-4.7.0.tgz#a04f68dab86d5545fd0277d07ffc44e4078154c9"
+webpack@^4.8.1:
+  version "4.8.1"
+  resolved "http://r.cnpmjs.org/webpack/download/webpack-4.8.1.tgz#59e38f99f2751c931dd09a035aba7bec4b5f916e"
   dependencies:
+    "@webassemblyjs/ast" "1.3.1"
+    "@webassemblyjs/wasm-edit" "1.3.1"
+    "@webassemblyjs/wasm-parser" "1.3.1"
     acorn "^5.0.0"
     acorn-dynamic-import "^3.0.0"
     ajv "^6.1.0"

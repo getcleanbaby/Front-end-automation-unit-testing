@@ -16,8 +16,7 @@ module.exports = function(config) {
       'karma-mocha',
       'karma-chai',
       'karma-phantomjs-launcher',
-      'karma-coverage',
-      'karma-webpack'
+      'karma-coverage'
     ],
 
 

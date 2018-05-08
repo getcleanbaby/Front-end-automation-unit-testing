@@ -154,13 +154,3 @@ reporters: ['progress', 'coverage']
 
 ![karma-coverage](https://github.com/getcleanbaby/Front-end-automation-unit-testing/raw/master/img/1525418258321.jpg)
 
-## 测试代码与webpack集成
-
-我们如果要用webpack对我们的代码进行打包，并且想用ES6语法书写我们的被测试代码，我们需要对我们的代码做如下改动：
-
-首先安装webpack和babel
-
-```
-yarn add webpack karma-webpack babel-loader babel-core babel-preset-es2015 --dev
-```
-
